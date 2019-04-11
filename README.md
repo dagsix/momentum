@@ -25,3 +25,6 @@ in root "screencap.jpg"
 
 8. GIF / video of you demonstrating the main features of your app
 Demo - Unlisted Youtube video >> https://www.youtube.com/watch?v=B5z751f6m04&feature=youtu.be
+
+This app is live at:
+http://purplecode.ca/momentum/
