@@ -1,0 +1,131 @@
+/*
+***************************************
+Momentum code
+Coding by Dave Guzda
+Make Swanky Code!
+April 2019
+*******************************************
+*/
+html > *
+{
+  font-family:"Ubuntu", sans-serif;
+  background-color: #000;
+}
+
+#weather
+{
+  position: fixed;
+  top: 15px;
+  right:15px;
+}
+
+#quote
+{
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+transform: translateX(-50%);
+}
+
+#todolist
+{
+  position: fixed;
+  right:15px;
+top: 50%;
+transform: translateY(-50%); 
+  border:1px solid #fff;
+  padding:7px;
+}
+
+#info
+{
+  position:fixed;
+  top:15px;
+  left:15px;
+  color:#fff;
+}
+
+#picloc
+{
+  position: fixed;
+  left:15px;
+  bottom: 15px;
+  color: #fff;
+}
+
+#infobox
+{
+  position: fixed;
+  left:15px;
+top: 50%;
+transform: translateY(-50%); 
+  border:1px solid #fff;
+  padding:7px;
+  width:25%;
+  color: #fff;
+}
+
+/*
+cool! centering fixed items:
+*****************************
+horizontal center;
+left: 50%;
+transform: translateX(-50%);
+
+Vertical center:
+top: 50%;
+transform: translateY(-50%);
+
+Both horizontal and vertical:
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+*/
+
+#todo
+{
+  position: fixed;
+  bottom: 15px;
+  right:15px;
+}
+
+.clockface
+{
+  font-size:9rem;
+}
+
+.inputface
+{
+  font-size:5rem;
+}
+
+.myform
+{
+  font-size:5rem;
+  font-family:"Ubuntu", sans-serif;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid white;
+}
+
+#gettodo
+{
+  padding:3px;
+  border: 1px solid white;
+}
+
+::placeholder { 
+  color: white;
+  opacity: 1; 
+}
+
+#getfocus, #getname, #displayfocus
+{
+  color:white;
+}
+
+.mystrike
+{
+  text-decoration: line-through;
+}
